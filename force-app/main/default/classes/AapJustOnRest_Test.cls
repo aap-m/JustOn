@@ -15,7 +15,6 @@ private class AapJustOnRest_Test {
         req.requestBody = Blob.valueOf(testRequest);
         RestContext.request = req;
         RestContext.response = res;
-		System.debug(RestContext.request);
         
         // Calling the service
         Test.startTest();
@@ -48,7 +47,6 @@ private class AapJustOnRest_Test {
         req.requestBody = Blob.valueOf(testRequest);
         RestContext.request = req;
         RestContext.response = res;
-		System.debug(RestContext.request);
         
         // Calling the service
         Test.startTest();
